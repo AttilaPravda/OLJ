@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/OLJ/static/css/main.4102a2da.chunk.css",
+    "main.js": "/OLJ/static/js/main.6d290df8.chunk.js",
+    "main.js.map": "/OLJ/static/js/main.6d290df8.chunk.js.map",
+    "runtime-main.js": "/OLJ/static/js/runtime-main.e0cc90c2.js",
+    "runtime-main.js.map": "/OLJ/static/js/runtime-main.e0cc90c2.js.map",
+    "static/css/2.1a6e4fba.chunk.css": "/OLJ/static/css/2.1a6e4fba.chunk.css",
+    "static/js/2.a14015d1.chunk.js": "/OLJ/static/js/2.a14015d1.chunk.js",
+    "static/js/2.a14015d1.chunk.js.map": "/OLJ/static/js/2.a14015d1.chunk.js.map",
+    "index.html": "/OLJ/index.html",
+    "precache-manifest.d959de925b45ba5565a9931e138ca924.js": "/OLJ/precache-manifest.d959de925b45ba5565a9931e138ca924.js",
+    "service-worker.js": "/OLJ/service-worker.js",
+    "static/css/2.1a6e4fba.chunk.css.map": "/OLJ/static/css/2.1a6e4fba.chunk.css.map",
+    "static/css/main.4102a2da.chunk.css.map": "/OLJ/static/css/main.4102a2da.chunk.css.map",
+    "static/js/2.a14015d1.chunk.js.LICENSE.txt": "/OLJ/static/js/2.a14015d1.chunk.js.LICENSE.txt",
+    "static/media/Frame.png": "/OLJ/static/media/Frame.34649f60.png",
+    "static/media/happy_couple.jpg": "/OLJ/static/media/happy_couple.8755ed8a.jpg",
+    "static/media/App.scss": "/OLJ/static/media/hero-area.fd050f8d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e0cc90c2.js",
+    "static/css/2.1a6e4fba.chunk.css",
+    "static/js/2.a14015d1.chunk.js",
+    "static/css/main.4102a2da.chunk.css",
+    "static/js/main.6d290df8.chunk.js"
+  ]
+}
