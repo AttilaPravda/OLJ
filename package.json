@@ -1,16 +1,26 @@
-{
+{ 
+  "homepage": "https://attilapravda.github.io/OLJ",
   "name": "olj",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@synapsestudios/react-drop-n-crop": "^0.2.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "file-saver": "^2.0.2",
+    "gh-pages": "^2.2.0",
+    "html2canvas": "^1.0.0-rc.5",
+    "node-sass": "^4.13.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-modal": "^3.11.2",
     "react-scripts": "3.4.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

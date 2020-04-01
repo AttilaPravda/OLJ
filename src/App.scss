@@ -1,0 +1,121 @@
+.app {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+
+  background-image: url(./assets/hero-area.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #bd4257;
+
+  button {
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 700;
+    max-width: 600px;
+    height: 70px;
+    font-size: 24px;
+    border: 0;
+    border-radius: 50px;
+    padding: 0 30px;
+    background: #fd9ba6;
+    color: white;
+    border: 2px solid white;
+    box-shadow: 0 20px 50px 0 rgba(0, 0, 0, .05);
+    outline: none;
+    margin-bottom: 20px;
+
+    &:hover {
+      background: darken(#fd9ba6, 15);
+    }
+  }
+
+  .input-text {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+
+    h1, h5 {
+      color: white;
+      text-align: justify;
+    }
+
+    h1 {
+      font-size: 60px;
+      padding: 0 40px;
+      margin: 0;
+    }
+
+    h5 {
+      font-size: 24px;
+      padding: 0 40px;
+      margin-bottom: 60px;
+    }
+
+    input {
+      width: 100%;
+      max-width: 600px;
+      height: 70px;
+      font-size: 24px;
+      border: 0;
+      border-radius: 50px;
+      padding: 0 30px;
+      background-color: #fff;
+      box-shadow: 0 20px 50px 0 rgba(0, 0, 0, .05);
+      outline: none;
+      margin-bottom: 20px;
+    }
+  }
+
+  .output-frame {
+    text-align: center;
+    button {
+      margin: 20px 15px 0;
+    }
+    #image-frame {
+      position: relative;
+
+      .image-frame {
+        border: 2px solid white;
+        position: relative;
+        z-index: 2;
+      }
+
+      .result {
+        position: absolute;
+        z-index: 20;
+        bottom: 20px;
+        color: #f8f8f8;
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%);
+
+        h3 {
+          font-size: 60px;
+        }
+
+        h3,
+        h6 {
+          margin: 0
+        }
+      }
+
+      .image-back {
+        position: absolute;
+        top: 135px;
+        left: 140px;
+        width: 325px;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+  
+}
